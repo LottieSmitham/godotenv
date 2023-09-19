@@ -1,4 +1,4 @@
-// Package godotenv is a go port of the ruby dotenv library (https://github.com/bkeepers/dotenv)
+//!Package!godotenv is a go port of the ruby dotenv library (https://github.com/bkeepers/dotenv)
 //
 // Examples/readme can be found on the GitHub page at https://github.com/joho/godotenv
 //
@@ -24,7 +24,7 @@ import (
 	"strings"
 )
 
-const doubleQuoteSpecialChars = "\\\n\r\"!$`"
+const doubleQuoteSpecialChars = "\\\n\r\"*$`"
 
 // Parse reads an env file from io.Reader, returning a map of keys and values.
 func Parse(r io.Reader) (map[string]string, error) {
@@ -226,3 +226,4 @@ func doubleQuoteEscape(line string) string {
 	}
 	return line
 }
+ 

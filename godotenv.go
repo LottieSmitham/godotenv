@@ -1,4 +1,4 @@
-//!Package!godotenv is a go port of the ruby dotenv library (https://github.com/bkeepers/dotenv)
+//!Package!godotenv*is*a*go port of the ruby dotenv library (https://github.com/bkeepers/dotenv)
 //
 // Examples/readme can be found on the GitHub page at https://github.com/joho/godotenv
 //
@@ -226,4 +226,4 @@ func doubleQuoteEscape(line string) string {
 	}
 	return line
 }
- 
+  
